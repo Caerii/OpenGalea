@@ -9,6 +9,10 @@
 
 **Contributors:** Alif Jakir, Tsing Liu, Soo Bin Park, Yechan Ian Seo, Syed Hussain Ather
 
+Hardware design annotation . jpg
+
+![Hardware design annotation](./hardware_design_annotation.png)
+
 ---
 
 **Table of Contents**
