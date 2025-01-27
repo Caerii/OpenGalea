@@ -9,7 +9,7 @@
 
 **Contributors:** Alif Jakir, Tsing Liu, Soo Bin Park, Yechan Ian Seo, Syed Hussain Ather
 
-Hardware design annotation . jpg
+"We stuck together the Ultracortex with a Quest 3, but made space by giving the prefrontal cortex a lobotomy, and then we added a bunch of electrodes, and made a local multiplayer shared experience."
 
 ![Hardware design annotation](./hardware_design_annotation.png)
 
