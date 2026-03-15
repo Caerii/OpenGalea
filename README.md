@@ -3,13 +3,17 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Caerii/OpenGalea?style=social)](https://github.com/Caerii/OpenGalea) [![GitHub forks](https://img.shields.io/github/forks/Caerii/OpenGalea?style=social)](https://github.com/Caerii/OpenGalea)
 [![GitHub issues](https://img.shields.io/github/issues/sbpark422/Syncer)](https://github.com/sbpark422/Syncer/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/sbpark422/Syncer)](https://github.com/sbpark422/Syncer/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Devpost](https://img.shields.io/badge/Devpost-OpenGalea-6C63FF?logo=devpost)](https://devpost.com/software/opengalea)
 
 **By Team Syncer**
 
+**[📋 View project on Devpost →](https://devpost.com/software/opengalea)** — Story, demo video, sizzle reel, and full hackathon submission.  
+**Videos:** [Demo](https://youtu.be/qLijOJMBI6s) · [Sizzle reel](https://youtu.be/i-78e9bFQKs)
+
 > **🏆 Meta track winner @ MIT Reality Hack 2025** — OpenGalea was awarded **5 Quest 3 headsets** by Meta, recognizing our brain-controlled, colocated multiplayer mixed reality system and supporting the next phase of development.
 
-**Contributors:** Alif Jakir, Tsing Liu, Soo Bin Park, Yechan Ian Seo, Syed Hussain Ather
+**Contributors:** Alif Jakir, Tsing Liu, Soo Bin Park, Yechan Ian Seo, Syed Hussain Ather  
+**Special thanks** to Vankley Yi for hardware engineering support.
 
 "We stuck together the Ultracortex with a Quest 3, but made space by giving the prefrontal cortex a lobotomy, and then we added a bunch of electrodes, and made a local multiplayer shared experience."
 
@@ -45,45 +49,47 @@
 14. [Acknowledgements](#acknowledgements)
 15. [Contact](#contact)
 16. [Inspirations](#inspirations)
-17. [Repositories](#repositories)
+17. [Repositories & Links](#repositories)
 
 ---
 
 ## 1. Introduction <a name="introduction"></a>
 
-OpenGalea is an open-source project that merges neuroscience and mixed reality to create immersive, brain-controlled experiences. By combining an 8-channel EEG system (based on the OpenBCI Cyton board) with the Meta Quest 3, OpenGalea enables users to interact with virtual environments using their brainwaves. This project aims to democratize neurotechnology, making it more accessible and affordable for researchers, developers, and enthusiasts. OpenGalea offers an accessible and open-source solution for creating valuable datasets and interactive closed-loop visual and auditory experiences that are entirely brain-controlled.
+OpenGalea is an open-source project that merges neuroscience and mixed reality into immersive, brain-controlled experiences. An 8-channel EEG system (OpenBCI Cyton) paired with the Meta Quest 3 lets users shape virtual environments with their brainwaves—no controllers required. We built it to **democratize neurotechnology**: at ~**15× lower cost** than commercial alternatives (OpenGalea ~$1,900 vs. Galea ~$30,000), it opens the door for researchers, developers, and enthusiasts to collect meaningful datasets and build entirely brain-driven, closed-loop visual and auditory experiences. The result is a platform where thought and presence share the same space.
 
 ## 2. Project Genesis: MIT Reality Hack <a name="project-genesis-mit-reality-hack"></a>
 
-OpenGalea was conceived and built during the hardware track at [MIT Reality Hack](https://www.mitrealityhack.com/), a premier hackathon that brings together innovators in mixed reality, AI, hardware, and game development. At MIT Reality Hack 2025, OpenGalea was named a **Meta track winner**, earning 5 Quest 3 headsets from Meta to scale our rich, colocated multiplayer experiences.
+OpenGalea was conceived and built during the hardware track at [MIT Reality Hack](https://www.mitrealityhack.com/), a premier hackathon that brings together innovators in mixed reality, AI, hardware, and game development. The intensity of the hackathon—and the chance to iterate alongside other teams—pushed the project from concept to a working, multi-user system in days. At MIT Reality Hack 2025, OpenGalea was named **Meta track winner**, earning 5 Quest 3 headsets from Meta to scale our colocated multiplayer experiences and bring the vision to more users.
 
 ## 3. Features <a name="features"></a>
 
-*   **Colocated Mixed Reality:** Supports shared virtual environments where multiple users can interact in the same physical space.
-*   **Brain-Computer Interface:** Integrates an 8-channel EEG system for real-time brainwave analysis.
-*   **Custom Machine Learning Model:** Utilizes a trained ML model for accurate classification of mental states (e.g., Attention, Relaxation).
-*   **UDP Communication:** Facilitates seamless communication between EEG hardware, laptops, and the Quest 3 headset.
-*   **Unity Development:** Leverages the Unity platform and Meta XR SDK for creating immersive mixed reality experiences.
-*   **Open-Source and Affordable:** Provides a cost-effective alternative to expensive commercial neurotechnology solutions.
+*   **Colocated Mixed Reality:** Shared virtual environments where multiple users share the same physical space—see each other, see the same virtual objects, and collaborate in real time.
+*   **Brain-Computer Interface:** An 8-channel EEG system streams and analyzes brainwaves in real time, so attention, relaxation, and other states can drive the experience.
+*   **Custom Machine Learning Model:** A trained classifier turns raw EEG into reliable mental-state labels (e.g., Attention, Relaxation), enabling responsive, brain-driven interactions.
+*   **UDP Communication:** Low-latency links between EEG hardware, laptops, and the Quest 3 keep brain data and the MR experience in sync.
+*   **Unity + Meta XR SDK:** Full mixed reality experiences built in Unity, with colocation and shared spatial anchors so everyone shares one coherent world.
+*   **Open-Source and Affordable:** Hardware, software, and docs are open—so labs, indie devs, and makers can build without the six-figure price tag of commercial neuro-MR systems.
 
 ## 4. Use Cases <a name="use-cases"></a>
 
-*   **Gaming:** Develop brain-controlled game mechanics for more immersive experiences.
-*   **Therapeutic Applications:** Create neuroadaptive environments for meditation, relaxation, and mental wellness.
-*   **Collaborative Training:** Enhance team-based training through shared virtual simulations.
-*   **Accessibility:** Provide assistive technology for individuals with disabilities.
-*   **Non-Verbal Communication**
+OpenGalea’s combination of BCI and colocated MR opens a wide range of applications:
+
+*   **Gaming:** Brain-controlled mechanics—focus to aim, relax to trigger—for deeper immersion and new forms of interdependence between players.
+*   **Therapeutic Applications:** Neuroadaptive environments that respond to attention and relaxation for meditation, stress reduction, and mental wellness.
+*   **Collaborative Training:** Shared virtual simulations where teams train together in the same space, with feedback tied to mental state and cooperation.
+*   **Accessibility:** Assistive interfaces that reduce reliance on physical input, enabling interaction through intention and focus.
+*   **Non-Verbal Communication:** Shared experiences where emotional or cognitive state (e.g., calm vs. focused) becomes part of how people coordinate—without saying a word.
 
 ## 5. Bill of Materials (BOM) <a name="bill-of-materials-bom"></a>
 
-A detailed BOM, including component sources and costs, is available [here](link to your BOM - Google Sheet or Markdown table).
+Keeping the system affordable was a core goal: we want labs, educators, and indie creators to run experiments and build experiences without six-figure hardware. A detailed BOM, including component sources and costs, is available [here](link to your BOM - Google Sheet or Markdown table).
 
 **Cost Comparison:**
 
 *   **OpenGalea:** Approximately $1,900
 *   **Commercial Equivalent (e.g., Galea):** Approximately $30,000
 
-OpenGalea is approximately **15.8 times more cost-effective** than comparable commercial systems.
+OpenGalea is approximately **15.8× more cost-effective** than comparable commercial systems—so neuroadaptive MR can move out of high-budget labs and into the wild.
 
 ## 6. Hardware Setup <a name="hardware-setup"></a>
 
@@ -136,12 +142,12 @@ A detailed, step-by-step assembly guide with diagrams and photos is available in
 1.  **Clone the Repositories:**
     *   **Software Repository (Unity, ML, BCI):**
         ```bash
-        git clone [[https://github.com/sbpark422/Syncer.git](https://www.google.com/search?q=https://github.com/sbpark422/Syncer.git)]([https://github.com/sbpark422/Syncer.git](https://www.google.com/search?q=https://github.com/sbpark422/Syncer.git))
+        git clone https://github.com/sbpark422/Syncer.git
         cd Syncer
         ```
     *   **Hardware Repository (Design Files + Hardware):**
         ```bash
-        git clone [[https://github.com/Caerii/OpenGalea.git](https://www.google.com/search?q=https://github.com/Caerii/OpenGalea.git)]([https://github.com/Caerii/OpenGalea.git](https://www.google.com/search?q=https://github.com/Caerii/OpenGalea.git))
+        git clone https://github.com/Caerii/OpenGalea.git
         cd OpenGalea
         ```
 
@@ -159,6 +165,8 @@ A detailed, step-by-step assembly guide with diagrams and photos is available in
     * Download and install the OpenBCI GUI according to your operating system.
 
 ## 8. Machine Learning Model <a name="machine-learning-model"></a>
+
+The ML pipeline turns raw EEG into actionable states (e.g., Attention vs. Relaxation) so the MR experience can respond in real time. Below is how we collect data, train the model, and run inference live.
 
 ### 8.1 Data Collection <a name="81-data-collection"></a>
 
@@ -192,6 +200,8 @@ A detailed, step-by-step assembly guide with diagrams and photos is available in
 
 ## 9. Running OpenGalea <a name="running-opengalea"></a>
 
+Once hardware is assembled and software is installed, you can run OpenGalea in single-player or multiplayer mode.
+
 ### 9.1 Single-Player Mode <a name="91-single-player-mode"></a>
 
 1.  **Hardware Setup:** Assemble the OpenGalea headset and connect it to your Quest 3. Connect the OpenBCI Cyton board to your laptop.
@@ -202,6 +212,8 @@ A detailed, step-by-step assembly guide with diagrams and photos is available in
 3.  **Start the Experience:** Launch the OpenGalea app on your Quest 3.
 
 ### 9.2 Multiplayer Mode <a name="92-multiplayer-mode"></a>
+
+In our example app, multiple users collaborate using their BCI alpha channels: each user's alpha values are visualized as pillars, and users help a running character jump over obstacles by entering a rest state (high alpha) when the character needs to jump.
 
 1.  **Hardware Setup:** Each participant needs a fully assembled OpenGalea headset, a Quest 3, and a laptop.
 2.  **Software Setup:**
@@ -214,14 +226,12 @@ A detailed, step-by-step assembly guide with diagrams and photos is available in
 3.  **Start the Experience:** Launch the OpenGalea app on all Quest 3 devices. The host should initiate the shared experience.
 
 ## 10. Colocation Implementation <a name="colocation-implementation"></a>
-OpenGalea utilizes Meta's Colocation and Shared Spatial Anchors APIs to create shared mixed reality experiences.
 
-*   **Colocation Discovery Initialization**
-    *   Devices running OpenGalea utilize Bluetooth-based discovery to identify each other within a range of approximately 30 feet. The Colocation API allows devices to advertise their presence and discover nearby sessions.
-*   **Shared Spatial Anchors**
-    *   Once devices are connected, shared spatial anchors ensure that virtual objects are consistently positioned within the physical space for all users.
-*   **Synchronization**
-    *   Maintaining synchronization between devices is crucial for a seamless shared experience. OpenGalea employs various techniques to ensure that all users see and interact with the same virtual objects at the same time.
+Colocation is what makes OpenGalea feel shared: everyone inhabits the same physical room and the same virtual layer, so cooperation is natural and spatial. We use Meta’s Colocation and Shared Spatial Anchors APIs to make that possible.
+
+*   **Colocation Discovery:** Devices discover each other over Bluetooth within ~30 feet. The Colocation API lets each headset advertise its session and find nearby peers so users can join without manual IPs or codes.
+*   **Shared Spatial Anchors:** Once connected, shared anchors lock virtual objects to the same spots in the room for every user—so a virtual pillar or character stays where you expect it, for everyone.
+*   **Synchronization:** We keep device state and object updates in sync so that all users see and interact with the same virtual world at the same time, with minimal lag or drift.
 
 ## 11. Troubleshooting <a name="troubleshooting"></a>
 
@@ -229,7 +239,7 @@ Refer to the [Troubleshooting Guide](link to troubleshooting guide - can be a se
 
 ## 12. Contributing <a name="contributing"></a>
 
-We welcome contributions to OpenGalea! Please see our [Contribution Guidelines](link to contributing guidelines - can be a `CONTRIBUTING.md` file) for details on how to get involved.
+OpenGalea is meant to grow with the community—whether you’re into hardware, ML, Unity, or UX, there’s room to help. We welcome contributions of all kinds. Please see our [Contribution Guidelines](CONTRIBUTING.md) for how to get involved.
 
 ## 13. License <a name="license"></a>
 
@@ -240,6 +250,7 @@ This project is licensed under the [MIT License](LICENSE).
 *   [MIT Reality Hack](https://www.mitrealityhack.com/)
 *   [OpenBCI](https://openbci.com/)
 *   [Meta](https://www.meta.com/)
+*   **Vankley Yi** — hardware engineering support
 
 ## 15. Contact <a name="contact"></a>
 
@@ -248,10 +259,16 @@ For questions or inquiries, please contact:
 *   [sbpark422@gmail.com (Soo Bin); tsingliu2020@gmail.com (Tsing); cds07012@gmail.com (Yechan); shussainather@gmail.com (Hussain); cubelocked@gmail.com (Alif)]
 
 ## 16. Inspirations <a name="inspirations"></a>
-*   Pacific Rim
-*   Cerebro (X-Men)
-*   Neon Genesis Evangelion
 
-## 17. Repositories <a name="repositories"></a>
-*   **Software (Unity, ML, BCI):** [https://github.com/sbpark422/Syncer](https://github.com/sbpark422/Syncer)
-*   **Hardware (Design Files):** [https://github.com/Caerii/OpenGalea](https://github.com/Caerii/OpenGalea)
+We drew on sci-fi and pop culture for the *feel* of brain-linked collaboration:
+
+*   **Pacific Rim** — Pilots neurally linked to share control and intention.
+*   **Cerebro (X-Men)** — A device that reads and connects minds across space.
+*   **Neon Genesis Evangelion** — Synchronization between pilot and machine, and between pilots, as the key to cooperation.
+
+## 17. Repositories & Links <a name="repositories"></a>
+*   **Software (Unity, ML, BCI):** [Syncer](https://github.com/sbpark422/Syncer)
+*   **Hardware (Design Files):** [OpenGalea](https://github.com/Caerii/OpenGalea)
+*   **Devpost:** [OpenGalea project page](https://devpost.com/software/opengalea)
+*   **Demo video:** [YouTube](https://youtu.be/qLijOJMBI6s)
+*   **Sizzle reel:** [YouTube](https://youtu.be/i-78e9bFQKs)
