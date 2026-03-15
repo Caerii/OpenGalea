@@ -7,6 +7,8 @@
 
 **By Team Syncer**
 
+> **🏆 Meta track winner @ MIT Reality Hack 2025** — OpenGalea was awarded **5 Quest 3 headsets** by Meta, recognizing our brain-controlled, colocated multiplayer mixed reality system and supporting the next phase of development.
+
 **Contributors:** Alif Jakir, Tsing Liu, Soo Bin Park, Yechan Ian Seo, Syed Hussain Ather
 
 "We stuck together the Ultracortex with a Quest 3, but made space by giving the prefrontal cortex a lobotomy, and then we added a bunch of electrodes, and made a local multiplayer shared experience."
@@ -53,7 +55,7 @@ OpenGalea is an open-source project that merges neuroscience and mixed reality t
 
 ## 2. Project Genesis: MIT Reality Hack <a name="project-genesis-mit-reality-hack"></a>
 
-OpenGalea was conceived and developed during the hardware track at [MIT Reality Hack](https://www.mitrealityhack.com/), a renowned annual hackathon that brings together innovators to push the boundaries of mixed reality, AI, hardware, software, and game development.
+OpenGalea was conceived and built during the hardware track at [MIT Reality Hack](https://www.mitrealityhack.com/), a premier hackathon that brings together innovators in mixed reality, AI, hardware, and game development. At MIT Reality Hack 2025, OpenGalea was named a **Meta track winner**, earning 5 Quest 3 headsets from Meta to scale our rich, colocated multiplayer experiences.
 
 ## 3. Features <a name="features"></a>
 
