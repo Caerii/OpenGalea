@@ -82,7 +82,7 @@ OpenGalea’s combination of BCI and colocated MR opens a wide range of applicat
 
 ## 5. Bill of Materials (BOM) <a name="bill-of-materials-bom"></a>
 
-Keeping the system affordable was a core goal: we want labs, educators, and indie creators to run experiments and build experiences without six-figure hardware. A detailed BOM, including component sources and costs, is available [here](link to your BOM - Google Sheet or Markdown table).
+Keeping the system affordable was a core goal: we want labs, educators, and indie creators to run experiments and build experiences without six-figure hardware. A detailed BOM, including component sources and costs, is available in **[BOM.md](BOM.md)**.
 
 **Cost Comparison:**
 
@@ -235,7 +235,7 @@ Colocation is what makes OpenGalea feel shared: everyone inhabits the same physi
 
 ## 11. Troubleshooting <a name="troubleshooting"></a>
 
-Refer to the [Troubleshooting Guide](link to troubleshooting guide - can be a separate Markdown file or a section in the README) for solutions to common issues.
+See **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** for common issues and fixes (hardware, OpenBCI, Python/ML, Unity/Quest, and multiplayer). If you run into something not covered there, [open an issue](https://github.com/Caerii/OpenGalea/issues) or reach out via [Contact](#15-contact).
 
 ## 12. Contributing <a name="contributing"></a>
 

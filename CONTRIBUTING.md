@@ -74,7 +74,7 @@ We welcome contributions in **software, machine learning, hardware design, and U
 ### **2. Documentation & Research Contributions**
 - Improve **README.md** with better setup guides.
 - Add **explanations on EEG signals, MR design, or machine learning models**.
-- Help build a **troubleshooting guide**.
+- Help build the **[troubleshooting guide](TROUBLESHOOTING.md)** — add solutions you discover, or open an issue for doc gaps.
 
 ### **3. UI/UX & Design Contributions**
 - Improve **brainwave visualization in Unity**.
